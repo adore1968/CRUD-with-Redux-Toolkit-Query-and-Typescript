@@ -60,7 +60,7 @@ function Form() {
           type="submit"
           className={`rounded-r px-5 text-white transition-colors ${handleIsUpdate()}`}
         >
-          {isUpdate ? "Edit" : "Create"}
+          {isUpdate ? "Update" : "Create"}
         </button>
       </form>
     </div>
